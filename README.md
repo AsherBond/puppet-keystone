@@ -292,10 +292,6 @@ Limitations
 
 * All the keystone types use the CLI tools and so need to be run on the keystone node.
 
-### Upgrade warning
-
-* If you've setup OpenStack using previous versions of this module you need to be aware that it used UUID as the default for the token_format parameter but now defaults to PKI.  If you're using this module to manage a Grizzly OpenStack deployment that was set up using a development release of the modules or are attempting an upgrade from Folsom then you'll need to make sure you set the token_format to UUID at classification time.
-
 Development
 -----------
 
